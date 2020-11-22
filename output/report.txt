@@ -1,0 +1,15 @@
+F
+======================================================================
+FAIL: test_register_success_1 (test_register.TestRegister)
+----------------------------------------------------------------------
+Traceback (most recent call last):
+  File "V:\programming\programmingTools\python\Python374\lib\site-packages\ddt.py", line 182, in wrapper
+    return func(self, *args, **kwargs)
+  File "V:\programming\programmingTools\python\projects\ningmengban3\testProject1\testcases\test_register.py", line 37, in test_register_success
+    self.assertEqual(expected_code, resp.get("code"))
+AssertionError: 0 != 2
+
+----------------------------------------------------------------------
+Ran 1 test in 0.082s
+
+FAILED (failures=1)

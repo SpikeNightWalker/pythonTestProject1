@@ -1,0 +1,19 @@
+log:
+  name: myLog
+  level: DEBUG
+  format: "%(asctime)s %(name)s %(levelname)s %(filename)s line:%(lineno)d %(message)s"
+  file:
+    path: output/logs/testProject.log
+    encoding: UTF-8
+    maxBytes: 1024*1024*100
+    backupCount: 10
+
+excel:
+  path: testdata/test1.xlsx
+  sheetName: Sheet1
+
+testcase:
+  dir: testcases
+  reportFile: output/report.txt
+
+
