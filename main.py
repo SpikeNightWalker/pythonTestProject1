@@ -2,6 +2,8 @@ import unittest
 
 from common import CommonUtil
 from common.ConfigUtil import YamlUtil
+from BeautifulReport import BeautifulReport
+
 
 # 获得配置
 yaml_config = YamlUtil.get_yaml()
@@ -10,12 +12,16 @@ testcase_dir = CommonUtil.get_value_by_navigate_from_dict(YamlUtil.get_yaml(), "
 testcase_dir = CommonUtil.get_abspath(testcase_dir)
 loader = unittest.TestLoader().discover(testcase_dir)
 
-report_file = CommonUtil.get_value_by_navigate_from_dict(YamlUtil.get_yaml(), "testcase.reportFile")
-report_file = CommonUtil.get_abspath(report_file)
+reportDir = CommonUtil.get_value_by_navigate_from_dict(YamlUtil.get_yaml(), "testcase.reportDir")
+reportDir = CommonUtil.get_abspath(reportDir)
 
-with open(report_file, "w") as f:
-    runner = unittest.TextTestRunner(f)
-    runner.run(loader)
+br = BeautifulReport(loader)
+br.report("desc", "beautifullReport.html", reportDir)
+
+
+# with open(reportDir + "report.txt", "w") as f:
+#     runner = unittest.TextTestRunner(f)
+#     runner.run(loader)
 
 
 

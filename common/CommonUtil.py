@@ -1,8 +1,11 @@
 import traceback
 import os
+from random import randint
 
 # 项目根路径，在该文件的上两级
 _root_path = os.path.abspath(__file__ + "/../..")
+
+_phone_prefix = [133, 130, 135]
 
 def get_value_by_navigate_from_dict(dict_obj, navigate, default_value=None):
     '''
@@ -32,3 +35,17 @@ def get_abspath(*relative_path):
         # print(path)
         return path
     return _root_path
+
+def get_phone_number():
+    '''
+    随机生成手机号
+    :return:
+    '''
+    prefix_three = str(_phone_prefix[randint(0, len(_phone_prefix) - 1)])
+    suffix_eight = str(randint(10000000, 99999999))
+    return prefix_three + suffix_eight
+
+print(get_phone_number())
+
+
+

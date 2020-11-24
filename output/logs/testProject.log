@@ -1,0 +1,110 @@
+2020-11-22 19:29:49,066 myLog INFO HttpUtil.py line:24 开始发送请求，method:POST，url:http://api.lemonban.com/futureloan/member/register，headers:{'X-Lemonban-Media-Type': 'lemonban.v2'}，data:{'mobile_phone': 13511111112, 'pwd': 11111111, 'type': 1, 'reg_name': 'nick2'}
+2020-11-22 19:29:49,507 myLog INFO HttpUtil.py line:30 收到响应:{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-11-22 19:29:49,508 myLog ERROR test_register.py line:40 断言失败
+Traceback (most recent call last):
+  File "V:\programming\programmingTools\python\projects\ningmengban3\testProject1\testcases\test_register.py", line 37, in test_register_success
+    self.assertEqual(expected_code, resp.get("code"))
+  File "V:\programming\programmingTools\python\Python374\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "V:\programming\programmingTools\python\Python374\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-11-22 19:35:23,992 myLog INFO HttpUtil.py line:24 开始发送请求，method:POST，url:http://api.lemonban.com/futureloan/member/register，headers:{'X-Lemonban-Media-Type': 'lemonban.v2'}，data:{'mobile_phone': 13511111112, 'pwd': 11111111, 'type': 1, 'reg_name': 'nick2'}
+2020-11-22 19:35:24,195 myLog INFO HttpUtil.py line:30 收到响应:{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-11-22 19:35:24,196 myLog ERROR test_register.py line:40 断言失败
+Traceback (most recent call last):
+  File "V:\programming\programmingTools\python\projects\ningmengban3\testProject1\testcases\test_register.py", line 37, in test_register_success
+    self.assertEqual(expected_code, resp.get("code"))
+  File "V:\programming\programmingTools\python\Python374\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "V:\programming\programmingTools\python\Python374\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+2020-11-24 21:45:02,712 myLog INFO HttpUtil.py line:24 开始发送请求，method:POST，url:http://api.lemonban.com/futureloan/member/register，headers:{'X-Lemonban-Media-Type': 'lemonban.v2'}，data:{'mobile_phone': 13511111112, 'pwd': 11111111, 'type': 1, 'reg_name': 'nick2'}
+2020-11-24 21:45:02,932 myLog INFO HttpUtil.py line:30 收到响应:{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-11-24 21:45:02,933 myLog ERROR test_register.py line:44 断言失败
+Traceback (most recent call last):
+  File "V:\programming\programmingTools\python\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "V:\programming\programmingTools\python\Python374\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "V:\programming\programmingTools\python\Python374\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "V:\programming\programmingTools\python\projects\ningmengban3\testProject1\testcases\test_register.py", line 41, in test_register_success
+    self.assertEqual(expected_code, resp.get("code"))
+  File "V:\programming\programmingTools\python\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2020-11-24 21:48:23,757 myLog INFO HttpUtil.py line:24 开始发送请求，method:POST，url:http://api.lemonban.com/futureloan/member/register，headers:{'X-Lemonban-Media-Type': 'lemonban.v2'}，data:{'mobile_phone': 13511111112, 'pwd': 11111111, 'type': 1, 'reg_name': 'nick2'}
+2020-11-24 21:48:23,980 myLog INFO HttpUtil.py line:30 收到响应:{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-11-24 21:48:23,980 myLog ERROR test_register.py line:44 断言失败
+Traceback (most recent call last):
+  File "V:\programming\programmingTools\python\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "V:\programming\programmingTools\python\Python374\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "V:\programming\programmingTools\python\Python374\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "V:\programming\programmingTools\python\projects\ningmengban3\testProject1\testcases\test_register.py", line 41, in test_register_success
+    self.assertEqual(expected_code, resp.get("code"))
+  File "V:\programming\programmingTools\python\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2020-11-24 22:00:05,101 myLog DEBUG test_register.py line:48 data={'mobile_phone': 13511111112, 'pwd': 11111111, 'type': 1, 'reg_name': 'nick2', 'mobile': '13037781628'}
+2020-11-24 22:00:05,102 myLog INFO HttpUtil.py line:24 开始发送请求，method:POST，url:http://api.lemonban.com/futureloan/member/register，headers:{'X-Lemonban-Media-Type': 'lemonban.v2'}，data:{'mobile_phone': 13511111112, 'pwd': 11111111, 'type': 1, 'reg_name': 'nick2', 'mobile': '13037781628'}
+2020-11-24 22:00:05,358 myLog INFO HttpUtil.py line:30 收到响应:{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-11-24 22:00:05,359 myLog ERROR test_register.py line:57 断言失败
+Traceback (most recent call last):
+  File "V:\programming\programmingTools\python\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "V:\programming\programmingTools\python\Python374\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "V:\programming\programmingTools\python\Python374\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "V:\programming\programmingTools\python\projects\ningmengban3\testProject1\testcases\test_register.py", line 54, in test_register_success
+    self.assertEqual(expected_code, resp.get("code"))
+  File "V:\programming\programmingTools\python\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2020-11-24 22:03:32,440 myLog DEBUG test_register.py line:48 data={'mobile_phone': 13511111112, 'pwd': 11111111, 'type': 1, 'reg_name': 'nick3', 'mobile': '13570958991'}
+2020-11-24 22:03:32,441 myLog INFO HttpUtil.py line:24 开始发送请求，method:POST，url:http://api.lemonban.com/futureloan/member/register，headers:{'X-Lemonban-Media-Type': 'lemonban.v2'}，data:{'mobile_phone': 13511111112, 'pwd': 11111111, 'type': 1, 'reg_name': 'nick3', 'mobile': '13570958991'}
+2020-11-24 22:03:32,516 myLog INFO HttpUtil.py line:30 收到响应:{'code': 2, 'msg': '账号已存在', 'data': None, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-11-24 22:03:32,517 myLog ERROR test_register.py line:57 断言失败
+Traceback (most recent call last):
+  File "V:\programming\programmingTools\python\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 32, in _patched_equals
+    old(self, first, second, msg)
+  File "V:\programming\programmingTools\python\Python374\lib\unittest\case.py", line 852, in assertEqual
+    assertion_func(first, second, msg=msg)
+  File "V:\programming\programmingTools\python\Python374\lib\unittest\case.py", line 845, in _baseAssertEqual
+    raise self.failureException(msg)
+AssertionError: 0 != 2
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "V:\programming\programmingTools\python\projects\ningmengban3\testProject1\testcases\test_register.py", line 54, in test_register_success
+    self.assertEqual(expected_code, resp.get("code"))
+  File "V:\programming\programmingTools\python\JetBrains\PyCharm 2019.2.5\helpers\pycharm\teamcity\diff_tools.py", line 38, in _patched_equals
+    raise error
+teamcity.diff_tools.EqualsAssertionError:  :: 0 != 2
+2020-11-24 22:05:11,339 myLog DEBUG test_register.py line:52 data={'mobile_phone': '13370945689', 'pwd': 11111111, 'type': 1, 'reg_name': 'nick3'}
+2020-11-24 22:05:11,339 myLog INFO HttpUtil.py line:24 开始发送请求，method:POST，url:http://api.lemonban.com/futureloan/member/register，headers:{'X-Lemonban-Media-Type': 'lemonban.v2'}，data:{'mobile_phone': '13370945689', 'pwd': 11111111, 'type': 1, 'reg_name': 'nick3'}
+2020-11-24 22:05:11,565 myLog INFO HttpUtil.py line:30 收到响应:{'code': 0, 'msg': 'OK', 'data': {'id': 1770141036, 'reg_name': 'nick3', 'mobile_phone': '13370945689'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
+2020-11-24 22:05:26,861 myLog DEBUG test_register.py line:52 data={'mobile_phone': '13590377755', 'pwd': 11111111, 'type': 1, 'reg_name': 'nick3'}
+2020-11-24 22:05:26,862 myLog INFO HttpUtil.py line:24 开始发送请求，method:POST，url:http://api.lemonban.com/futureloan/member/register，headers:{'X-Lemonban-Media-Type': 'lemonban.v2'}，data:{'mobile_phone': '13590377755', 'pwd': 11111111, 'type': 1, 'reg_name': 'nick3'}
+2020-11-24 22:05:27,081 myLog INFO HttpUtil.py line:30 收到响应:{'code': 0, 'msg': 'OK', 'data': {'id': 1770141038, 'reg_name': 'nick3', 'mobile_phone': '13590377755'}, 'copyright': 'Copyright 柠檬班 © 2017-2020 湖南省零檬信息技术有限公司 All Rights Reserved'}
